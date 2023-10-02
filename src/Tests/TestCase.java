@@ -33,8 +33,8 @@ public class TestCase {
     //Create object of LoginPage
     LoginPage loginpage = new LoginPage(driver);
     //Enter valid credentials
-    loginpage.email("gaurav.pathangej@gmail.com");
-    loginpage.password("GauravExcelr");
+    loginpage.email("abc@gmail.com");
+    loginpage.password("abc");
     loginpage.signin();
     //Create object of DashboardPage
 	DashboardPage dashboard = new DashboardPage(driver);
